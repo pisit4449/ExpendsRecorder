@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 GUI = Tk()
-GUI.title("Program บันทึกค่าใช้จ่าย By Yingnaja")
+GUI.title("Program บันทึกค่าใช้จ่าย By Yingnaja V.1.0")
 GUI.geometry('600x550+500+50')
 
 ####################### MENU BAR #########################
@@ -19,6 +19,7 @@ filemenu.add_command(label='Import CSV')
 filemenu.add_command(label='Export to googlesheet')
 # Help menu
 def About():
+    print('About_menu')
     messagebox.showinfo('About','สวัสดีครับ \n สนใจติต่อ 0897513041')
     
 helpmenu = Menu(menubar,tearoff=0)
